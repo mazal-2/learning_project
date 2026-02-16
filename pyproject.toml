@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-ollama>=1.0.1",
+    "numpy>=2.4.2",
+    "ollama>=0.6.1",
+    "pandas>=3.0.0",
+    "pytest>=9.0.2",
+]
+
+[[tool.uv.index]]
+name = "pypi-mirror"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple" 
+default = true 

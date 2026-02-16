@@ -91,8 +91,8 @@ set -gx PATH "$VIRTUAL_ENV"'/Scripts' $PATH
 
 # Prompt override provided?
 # If not, just use the environment name.
-if test -n ''
-    set -gx VIRTUAL_ENV_PROMPT ''
+if test -n 'rag-agent'
+    set -gx VIRTUAL_ENV_PROMPT 'rag-agent'
 else
     set -gx VIRTUAL_ENV_PROMPT (basename "$VIRTUAL_ENV")
 end

@@ -28,7 +28,7 @@
 
 @for %%i in ("D:\projects\uv\rag_agent\rag_env") do @set "VIRTUAL_ENV=%%~fi"
 
-@set "VIRTUAL_ENV_PROMPT="
+@set "VIRTUAL_ENV_PROMPT=rag-agent"
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (
     @for %%d in ("%VIRTUAL_ENV%") do @set "VIRTUAL_ENV_PROMPT=%%~nxd"
 )

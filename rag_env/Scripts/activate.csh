@@ -38,8 +38,8 @@ setenv PATH "$VIRTUAL_ENV:q/Scripts:$PATH:q"
 
 
 
-if ('' != "") then
-    setenv VIRTUAL_ENV_PROMPT ''
+if ('rag-agent' != "") then
+    setenv VIRTUAL_ENV_PROMPT 'rag-agent'
 else
     setenv VIRTUAL_ENV_PROMPT "$VIRTUAL_ENV:t:q"
 endif
