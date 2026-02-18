@@ -13,3 +13,4 @@ prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 res = chain.invoke({'question':'如何在langchain里面调用ollama的模型？'})
 print(res)
+
